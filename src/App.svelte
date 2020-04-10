@@ -1,16 +1,32 @@
 <script>
+import Frames from './Frames.svelte';
 
-window.socket.on('connect', ()=>{
-	window.socket.emit('user connected', 12345)
-})
+let frames = [
+	{name: 'Hope', link: '696759648082198629'},
+	{name: 'Hope', link: '639901212535160850'}
+];
 
 </script>
 
 <main>
-	<h1 class="glow">Hello Creme!</h1>
+	<h1 class="glow">Creme Caramel</h1>
+
+	<div id="servers">
+		<p class="glow" style="font-weight: normal; font-size: 30px;">SERVERS</p>
+		{#each frames as f}
+			<Frames title={f.name} link={f.link} />
+		{/each}
+	</div>
 </main>
 
 <style>
+
+	#servers{
+		padding: 10px;
+		background: #202c38;
+		border-radius: 10px;
+	}
+
 	main {
 		text-align: center;
 		padding: 1em;
