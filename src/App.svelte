@@ -2,8 +2,7 @@
 import Frames from './Frames.svelte';
 
 let frames = [
-	{name: 'Social', link: '691144859142062181'},
-	{name: 'ChillOut', link: '697818484674920532'}
+	{server: '696759648082198629', channel: '696759648715407363'}
 ];
 
 </script>
@@ -14,7 +13,7 @@ let frames = [
 	<div id="servers">
 		<p class="glow" style="font-weight: normal; font-size: 30px;">SERVERS</p>
 		{#each frames as f}
-			<Frames title={f.name} link={f.link} />
+			<Frames link={f.server} channel={f.channel} />
 		{/each}
 	</div>
 </main>
