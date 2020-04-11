@@ -2,8 +2,8 @@
 import Frames from './Frames.svelte';
 
 let frames = [
-	{name: 'Hope', link: '696759648082198629'},
-	{name: 'Hope', link: '639901212535160850'}
+	{name: 'Social', link: '691144859142062181'},
+	{name: 'ChillOut', link: '697818484674920532'}
 ];
 
 </script>

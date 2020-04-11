@@ -4,9 +4,9 @@
 </script>
 
 <style>
-    iframe{
+    img{
         margin: 10px;
     }
 </style>
 
-<iframe {title} src="https://discordapp.com/widget?id={link}&theme=dark" width="300" height="400" allowtransparency="true" frameborder="0" />
+<img {title} src="https://discordapp.com/api/guilds/{link}/widget.png?style=banner3" alt="{title}">
