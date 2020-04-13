@@ -2,7 +2,7 @@
 import Frames from './Frames.svelte';
 
 let frames = [
-	{server: '691144859142062181', channel: '691144859142062184'}
+	{server: '691144859142062181', channel: '699228375977427014'}
 ];
 
 </script>
