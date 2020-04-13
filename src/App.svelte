@@ -27,6 +27,7 @@ let frames = [
 	}
 
 	main {
+		font-family: 'Dancing Script', cursive;
 		text-align: center;
 		padding: 1em;
 		max-width: 240px;
